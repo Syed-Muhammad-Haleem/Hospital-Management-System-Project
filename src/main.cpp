@@ -4,7 +4,6 @@
 #include<sstream>
 #include <limits>
 #include <string>
-#include <conio.h>
 #include <stdlib.h>
 #include "Person.h"
 #include "Patient.h"
@@ -25,7 +24,7 @@ int main()
 	
   do
   {
-  	system("cls");
+  	system("clear");
   	showMainMenu();
   	int Choice;
   	cout<<"\n\a\t\t\t\t\t\tEnter Choice: ";
@@ -44,7 +43,7 @@ int main()
 			  }
 		  	  while(true)
   	          {
-  		         system("cls");
+  		         system("clear");
   		         showReceptMenu();
   		         int SubChoice;
   		         cout<<"\n\a\t\t\t\t\t\tEnter Choice: ";
@@ -109,7 +108,7 @@ int main()
 			  
   		      while(true)
   	          {
-  	            system("cls");
+  	            system("clear");
   		        showDocterMenu();
   		        int SubChoice;
   		        cout<<"\n\a\t\t\t\t\t\tEnter Choice: ";
@@ -156,7 +155,7 @@ int main()
 			  }
   		   while(true)
   	       {
-  	        system("cls");
+  	        system("clear");
   		    showAccountantMenu();
   		    int SubChoice;
   		    cout<<"\n\a\t\t\t\t\t\tEnter Choice: ";
@@ -195,7 +194,7 @@ int main()
   		  	   AdminObject.AdminLogin();
   		  	   while(true)
   	           {
-  	             system("cls");
+  	             system("clear");
   		         showAdminMenu();
   		         int SubChoice;
   		         bool LoopController=false;
