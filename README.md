@@ -40,7 +40,7 @@ Hospital Management System
 
 
 
-# VERSION V2 Hospital Management System
+# VERSION(v2) Hospital Management System
 
 ## Project Structure
 
